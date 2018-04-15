@@ -1,0 +1,60 @@
+.container{
+  background: #f2f2f2;
+}
+.header{
+  width: 100%;
+  height: 300rpx;
+  background: pink;
+  display: flex;
+   justify-content: center; 
+}
+.header image{
+  width: 100rpx;
+  height: 100rpx;
+   margin-top: 100rpx;  
+}
+.jane_main{
+  background: #fff;
+  margin-top: 30rpx;
+  width: 100%;
+}
+.fillin{
+  color:pink; 
+  width: 100%;
+  display: flex;
+  border-bottom: 1rpx #ececec solid;
+  padding: 15rpx 0;
+}
+.jane_main .floimg{
+  width: 10%;
+  padding-left: 3%;
+}
+.jane_main .fl_right{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+.fillin image{
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+}
+.footer{
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+  margin-top: 30px;
+}
+.footer image{
+  width: 30px;
+  height:30px;
+  display: block;
+  margin-left: 40%;
+}
+.footer view{
+  width: 50%;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+}

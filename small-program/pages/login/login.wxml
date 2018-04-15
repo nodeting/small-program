@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<view class='container' style='width:{{bgw}}px;height:{{bgh}}px'>
+  <view class='tu'>
+    <view class='tu_1'>
+        <image src='{{url}}'></image>  
+       <text>{{name}}</text>
+    </view>
+     <view class='tu_2'>
+       <image src='../../image/4.png'></image> 
+    </view>
+     <view class='tu_3'>
+       <image src='../../image/3.png'></image> 
+       <text>猎聘同道</text>
+    </view>
+  </view>
+
+
+  <view class='ipt'>
+    <view class='ipt_top'>
+      <image src='../../image/5.jpg'></image>
+      <input class='btn' type="text" placeholder='请输入手机号' maxlength='11'value="" bindinput ="mobileInput" ></input>  
+    </view>
+  
+    <view class='ipt_bottom'>
+       <image src='../../image/6.jpg'></image>
+       <input class='btn' type="text" placeholder='请输入验证码' maxlength='11'value="{{str}}" bindinput ="mobileInput" ></input>
+       <button bindtap='dian'>获取验证码</button>
+    </view>
+  </view>
+  <button class='confirm' type="submit" bindtap='btnclick' >进入小程序</button>  
+</view>

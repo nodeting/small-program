@@ -1,0 +1,191 @@
+<block>
+  <view class='header'>
+    <view class='ipt_top center-block'>
+      <image src='../../image/wels_03.jpg'></image>
+      <input type='text' placeholder='输入您要招聘的职位名称，”销售“'></input>
+    </view>
+  </view>
+</block>
+
+<block>
+  <view class='hot center-block'>
+    <text class='hot_title'>热门职位推荐</text>
+    <view class='post'>
+      <view>
+        <text>服务员</text>
+        <text>服务员</text>
+        <text>服务员</text>
+        <text>服务员</text>
+      </view>
+      <view>
+        <text>服务员</text>
+        <text>服务员</text>
+        <text>服务员</text>
+        <text>服务员</text>
+      </view>
+      <view>
+        <text class='text-left'>收银员</text>
+        <text class='text-left'>保安</text>
+      </view>
+    </view>
+  </view>
+</block>
+
+<block>
+  <view class='particulars center-block'>
+    <view class='one'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>职位性质</text>
+      </view>
+      <view wx:for="{{arr_one}}" id='{{index}}' style='background-image:url({{item.url}})' bindtap='bgcolor' data-text="{{item}}" class='zw'>
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+    <view class='two'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>招聘岗位</text>
+      </view>
+      <view class='zhaopin'></view>
+    </view>
+    <view class='askfor'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>招聘要求</text>
+      </view>
+      <view class='people'>
+        <input type='text' value='1'></input>
+        <text>人</text>
+      </view>
+
+      <view class='select_box'>
+        <view class='select' bindtap='selectTap' id='0'>
+          <text class='select_text'>{{selectarr[0].selectData[0]}}</text>
+        </view>
+        <view class='option_box' style='height:{{selectarr[0].show?(selectarr[0].selectData.length>5?300:selectarr[0].selectData.length*50):0}}rpx;'>
+          <text class='option' wx:for='{{selectarr[0].selectData}}' wx:key='this' data-index='{{index}}'>{{item}}</text>
+        </view>
+      </view>
+
+      <text>含以上</text>
+
+      <view class='select_box'>
+        <view class='select' bindtap='selectTap' id='1'>
+          <text class='select_text'>{{selectarr[1].selectData[0]}}</text>
+        </view>
+        <view class='option_box' style='height:{{selectarr[1].show?(selectarr[0].selectData.length>5?300:selectarr[0].selectData.length*50):0}}rpx;'>
+          <text class='option' wx:for='{{selectarr[1].selectData}}' data-index='{{index}}' >
+            {{item}}
+          </text>
+        </view>
+      </view>
+    </view>
+
+    <view class='monthly'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>职位月薪</text>
+      </view>
+
+      <view class='select_box'>
+        <view class='select' bindtap='selectTap' id='2'>
+          <text class='select_text'>{{selectarr[2].selectData[0]}}</text>
+        </view>
+        <view class='option_box' style='height:{{selectarr[2].show?(selectarr[2].selectData.length>5?300:selectarr[2].selectData.length*50):0}}rpx;'>
+          <text class='option' wx:for='{{selectarr[2].selectData}}' wx:key='this' data-index='{{index}}'>{{item}}</text>
+        </view>
+      </view>
+
+      <text class='monthly_text'>自定义月薪区间</text>
+    </view>
+    <view class='describe'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>职位描述</text>
+      </view>
+      <textarea placeholder='岗位职责'></textarea>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>公司简介</text>
+      </view>
+      <textarea placeholder=''></textarea>
+    </view>
+    <view class='bright'>
+      <view class='xing'>
+        <text>职位描述</text>
+      </view>
+      <view class='bright_right'>
+        <view>
+          <text>
+            选择职位亮点,提升职位吸引力,有效增强职位投递<text class='red'>(最多可选择8个标签）</text>
+          </text>
+        </view>
+        <text>节日福利</text>
+        <text>不加班</text>
+        <text>14薪</text>
+        <text>住房补助</text>
+        <text>无试用期</text>
+        <text>免息房贷</text>
+        <text>每年多次调薪</text>
+        <text>周末双休</text>
+        <text>五险一金</text>
+        <text>年底双薪</text>
+        <text>14薪</text>
+        <text>住房补助</text>
+        <text>无试用期</text>
+        <text>免息房贷</text>
+        <text>每年多次调薪</text>
+        <text>周末双休</text>
+        <text>不加班</text>
+        <text>14薪</text>
+        <text>住房补助</text>
+      </view>
+    </view>
+    <view class='work'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>工作地点</text>
+      </view>
+      <text>添加/删除发布地点</text>
+    </view>
+    <view class='work_did'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>工作地址</text>
+      </view>
+      <text>{{mapText}}</text>
+      <text class='blue'>标注地理位置</text>
+    </view>
+    <view class='date'>
+      <view class='xing'>
+        <image src='../../image/xing_03.jpg'></image>
+        <text>发布截止日期</text>
+      </view>
+      <!--日历插件  -->
+      <view class='rl'>
+        <view class="section">
+          <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+            <view class="picker">
+              时间 : {{times}}
+            </view>
+          </picker>
+        </view>
+        <view class="section">
+          <picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">
+            <view class="picker">
+              日期: {{dates}}
+            </view>
+          </picker>
+        </view>
+
+      </view>
+    </view>
+    <text>{{}}</text>
+
+
+
+
+
+  </view>
+</block>

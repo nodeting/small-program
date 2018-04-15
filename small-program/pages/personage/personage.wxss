@@ -1,0 +1,22 @@
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.datum{
+  width: 90%;
+  /* background: pink; */
+  display: flex;
+  justify-content: space-between;
+  line-height: 85rpx;
+  border-bottom: 1rpx #ececec solid; 
+  padding: 10rpx 0;
+}
+.datum:last-child{
+  margin-bottom: 100rpx;
+}
+image{
+  width: 70rpx;
+  height: 70rpx;
+  vertical-align: middle;
+}

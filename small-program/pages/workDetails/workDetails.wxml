@@ -1,0 +1,77 @@
+<!--pages/workDetails/workDetails.wxml-->
+<view class='container'>
+  <view class='top'>
+  <!-- <image src='../../images/d_03.png'/> -->
+  <image src='../../image/11.png'></image>
+    <view class="top-con">
+
+      <view class='xiao'>销售经理</view>
+      <view class="murny">
+        <text class='wan'>6-12万</text>
+        <view class='ping'>平均5天反馈</view>
+      </view>
+      <view class="san-con">
+        <view class='san'>
+           <image src='../../image/d_003 (1).png'/> 
+          3年以上
+        </view>
+        <view class='san'>
+           <image src='../../image/d_003 (2).png'/> 
+          北京-前门
+        </view>
+        <view class='san'>
+           <image src='../../image/d_003 (3).png'/> 
+          大专及以上
+        </view>
+      </view>
+
+      <view class='action-con'>
+        <view class='action-img'>
+          <image src='../../image/d_003 (4).png'/> 
+        </view>
+        <view class='action'>
+          广州康普顿至高建材有限公司
+        </view>  
+      </view>
+      <view class='action-nav'>
+        <view class='nav'>建筑工程</view>
+        <view class='nav'>100-900人</view>
+        <view class='nav'>外商独资 外企办事处</view>
+      </view>
+      <view class='zhi'>
+        <image src='../../image/d_003 (5).png'/>
+        <view class='zhi-text'>职位介绍</view>  
+      </view>
+      <view class='gang-con'>
+        <view class='gang'>岗位职责：</view>
+        <text class='gang-text'>
+          1.负责搜集新客户的资料并进行沟通，开发新客户；
+          2、通过电话与客户进行有效沟通了解客户需求, 寻找销售机会并完成销售业绩；
+          3、维护老客户的业务，挖掘客户的最大潜力；
+          4、定期与合作客户进行沟通，建立良好的长期合作关系。
+        </text>
+      </view>
+      <view class='gang-con'>
+        <view class='gang'>技能要求：</view>
+        <text class='gang-text'>
+          1.年龄不限，口齿清晰，较好的亲和力。
+          2、对销售工作有较高的热情
+          3、具备较强的学习能力和优秀的沟通能力；
+          4、性格坚韧，思维敏捷，具备良好的应变能力和承压能力；
+          5、有敏锐的市场洞察力，有强烈的事业心、责任心和积极的工作态度，有相关电话销售工作经验者优先。。
+        </text>
+      </view>
+
+    </view>
+
+  </view>    
+</view>
+
+<view class='foot'>
+  <view bindtap='shouBtn' class='shou'>
+     <image src='../../image/d_003 (6).png'/> 
+    <view>收藏职位</view>
+  </view>
+  <button bindtap='liBtn' class='btn'>立即应聘</button>
+
+</view>

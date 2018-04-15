@@ -1,0 +1,13 @@
+<!--pages/enterprise/enterprise.wxml-->
+<view class='container'  style='width:{{bgw}}px;height:{{bgh}}px'>
+<view class='enterprise' >
+  <image src='../../image/ttt.jpg'></image>
+  <view class='tt'>
+  
+  <text class='txt' bindtap='zhuce'>企业注册</text>
+  <text class='txt1' bindtap='nav'>企业登陆</text>
+  </view>
+  
+
+</view>
+</view>

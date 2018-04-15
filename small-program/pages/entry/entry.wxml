@@ -1,0 +1,11 @@
+<!--pages/entry/entry.wxml-->
+<view class='container' style='width:{{bgw}}px;height:{{bgh}}px'>
+  <view class='box' bindtap='nav'>
+     <image src='../../image/1.png'></image>
+     <text>我想找工作</text>
+  </view>
+  <view class='box1' bindtap='box1'>
+      <image src='../../image/2.png'></image>
+      <text>我想招人</text>
+  </view>
+</view>

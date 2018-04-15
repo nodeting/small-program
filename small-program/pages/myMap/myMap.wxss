@@ -1,0 +1,49 @@
+
+.con{
+  height: 20px;
+  /* line-height: 30rpx; */
+  padding: 3%;
+  background: #f3f7fa;
+}
+.con image{
+  width: 13px;
+  height: 12px;
+}
+page{
+    height: 80%;
+}
+.userinfo{
+  height: 30px;
+}
+.scr{
+
+    position: relative;
+    height: 100%;
+    /* padding: 0 3%; */
+
+}
+.usermotto{
+  height: 30px;
+}
+.test{
+   
+    /* height: 80rpx; */
+    padding: 3%;
+    border-bottom: 1px #ccc solid;
+
+}
+.name{
+  padding: 3%;
+  margin-top: 3%;
+  text-align: center;
+  background: #f3f7fa;
+}
+
+
+.list{ 
+  position: fixed;
+  z-index: 9;
+  line-height: 24px; 
+  top:180rpx;
+  right: 10rpx; }
+

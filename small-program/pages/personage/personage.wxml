@@ -1,0 +1,59 @@
+<block>
+  <view class='datum center-block'>
+    <text>头像</text>
+    <image src='../../image/wel_1.jpg'></image>
+  </view>
+  <view class='datum center-block'>
+    <text>姓名</text>
+    <text>张三</text>
+  </view>
+  <view class='datum center-block'>
+    <text>性别</text>
+    <text>男</text>
+  </view>
+  <view class='datum center-block'>
+    <text>年龄</text>
+    <text>18</text>
+  </view>
+  <view class='datum center-block'>
+    <text>身份证号码</text>
+    <text>12343547646</text>
+  </view>
+  <view class='datum center-block'>
+    <text>名族</text>
+    <text>汉</text>
+  </view>
+  <view class='datum center-block'>
+    <text>户籍地址</text>
+    <text>山东</text>
+  </view>
+  <view class='datum center-block'>
+    <text>现住址</text>
+    <text>北京</text>
+  </view>
+  <view class='datum center-block'>
+    <text>婚姻状况</text>
+    <text>未婚</text>
+  </view>
+  <view class='datum center-block'>
+    <text>联系电话</text>
+    <text>123234769378</text>
+  </view>
+  <view class='datum center-block'>
+    <text>个人技能</text>
+    <text>无</text>
+  </view>
+  <view class='datum center-block'>
+    <text>教育情况</text>
+    <text>无</text>
+  </view>
+  <view class='datum center-block'>
+    <text>工作状态</text>
+    <text>无</text>
+  </view>
+  <view class='datum center-block'>
+    <text>工作经历</text>
+    <text>无</text>
+  </view>
+
+</block>

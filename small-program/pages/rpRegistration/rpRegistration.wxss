@@ -1,0 +1,156 @@
+/* pages/rpRegistration/rpRegistration.wxss */
+
+.container{
+  width: 750rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.unit{
+  width: 100%;
+  height: 70rpx;
+  background: #f6f6f6;
+  border-top: 2rpx solid #e9e7e7;
+  padding-left: 60rpx;
+  color: #1d1d1d;
+  font-size: 34rpx;
+  font-weight: bold;
+  line-height: 70rpx;
+  margin-bottom: 20rpx;
+}
+.from-con{
+  width: 80%;
+}
+label{ 
+  margin: 15rpx 15rpx 0 10rpx;
+}
+.from-con image{
+  width: 20rpx;
+  height: 20rpx;
+  margin-top:20rpx;
+}
+.r-name{
+  width: 65%;
+  border: 1rpx solid #e9e7e7;
+  padding-left: 15rpx;
+}
+.l-name{
+  width: 24%;
+  height: 50rpx;
+  border: 1rpx solid #e9e7e7;
+}
+.radio{
+  display: inline-block;
+}
+.y-name{
+  width: 35%;
+  border: 1rpx solid #e9e7e7;
+  padding-left: 15rpx; 
+}
+.yan-btn{
+  width: 35%;
+  height: 50rpx;
+  font-size: 22rpx;
+  margin-left: 10rpx;
+  margin-right: 0rpx;
+}
+.from-line{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 22rpx;
+  font-size: 30rpx;
+
+}
+.szd{
+  width: 28%;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1rpx #e9e7e7 solid;
+  font-size: 26rpx;
+}
+.szd-s{
+  margin: 10rpx 10rpx 0 10rpx;
+  font-size: 26rpx;
+}
+
+.mo{
+  width:100rpx;
+  border: 1rpx solid #e9e7e7;
+}
+.f-name{
+  border:#e9e7e7 solid 1rpx;
+}
+.file-btn{
+   width: 60%;
+  height: 60rpx;
+  font-size: 22rpx;
+  margin-right: 0rpx;
+  margin-left: 0rpx;
+}
+
+.file-text{
+  font-size: 20rpx;
+  color: #000;
+  margin-bottom: 20rpx;
+}
+.file-zhu{
+  font-size: 22rpx;
+  color: #FF6600;
+  margin-bottom: 50rpx;
+}
+
+
+.zhu-btn{
+  background: #FF6600;
+  color: #fff;
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  margin-top: 40rpx;
+}
+
+
+.select_box{
+  background:#F3F9FC;
+  width: 35%;
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  z-index: 10000;
+}
+.select{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70rpx;
+  border:1px solid #efefef;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center; 
+}
+.select_text{
+  font-size: 30rpx;
+  justify-content: flex-start;
+}
+
+.option_box{
+  position: absolute;
+  top: 70rpx;
+  width: 100%;
+  border:1px solid #efefef;
+  box-sizing: border-box;
+  height: 0; 
+  overflow-y: auto; 
+  border-top: 0; 
+  background:#F3F9FC;
+  transition: height 0.3s;
+}
+.option{
+  display: block;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #efefef;
+}

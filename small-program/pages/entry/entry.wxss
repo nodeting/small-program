@@ -1,0 +1,35 @@
+/* pages/entry/entry.wxss */
+.container {
+  background-color: #F7F7F7;
+}
+.box{
+  width: 90%;
+  height: 160px; 
+  background-color: #ffffff;
+}
+.box image{
+  width: 180rpx;
+  height: 150rpx;
+  margin-left: 38%;
+  margin-top: 5%;
+}
+.box text{
+  display: block;
+  text-align: center
+}
+.box1{
+  width: 90%;
+  height: 160px;
+  background-color: #ffffff;
+  margin-top: 2%;
+}
+.box1 image{
+  width: 180rpx;
+  height: 150rpx;
+  margin-left: 38%;
+  margin-top: 5%;
+}
+.box1 text{
+  display: block;
+  text-align: center
+}

@@ -1,0 +1,104 @@
+<!--pages/rpRegistration/rpRegistration.wxml-->
+<!-- <text>pages/rpRegistration/rpRegistration.wxml</text> -->
+
+<view class='container'>
+  <view class='unit'>
+    单位信息
+  </view>
+  <from class='from-con'>
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">单位名称</label>
+      <input class='r-name' type='text'/>
+    </view>
+
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">所在地</label>
+     <view class='select_box'>
+<view class='select' catchtap='selectTap'>
+<text class='select_text'>{{selectData[index].name}}</text> 
+</view>
+<view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+<text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item.name}}</text>
+</view>
+</view>
+<!-- 下拉 -->
+ <view class='select_box'>
+<view class='select' catchtap='selectsTap'>
+<text class='select_text' wx:for='{{selectDate[index]}}'>{{item[indexx].name}}</text> 
+</view>
+<view class='option_box' style='height:{{bb?(selectDate.length>5?300:selectDate.length*60):0}}rpx;'>
+<text class='option' style='{{indexx==selectDate.length-1&&"border:0;"}}' wx:for='{{selectDate[index].city}}' wx:key='this' data-index='{{index}}' catchtap='optionsTap'>{{item.name}}</text>
+</view>
+</view>
+
+    </view> 
+
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">联系人</label> 
+      <input class='l-name' type='text'></input>  
+       <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>   
+    </view>
+
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">联系电话</label>
+       <input class='r-name' type="text" placeholder='手机号码' maxlength='11'value="" bindinput ="mobileInput" ></input>
+    </view>
+
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label>验证码</label>
+      <input class='y-name' type='text' placeholder="验证码"/>
+      <button bindtap='dian' class='yan-btn'>获取短信验证码</button> 
+    </view> 
+
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">企业营业执照</label>
+      <button bindtap="bindChooiceProduct" class='file-btn'>选择图片并上传</button>
+    </view> 
+     <view class='file-text'>
+        **确保单位名称与提交审核公司一致；如为复印件、黑白扫描件，需加盖单位公章；
+        不可使用屏幕截图或翻拍图片提交审核；上传图片不可有与招聘无关的标注或水印；
+       所上传执照照片，信息需清晰完整。**
+    </view> 
+    <view class='file-zhu'>
+      企业营业执照仅用于审核,不会向第三方透露,请放心上传！
+    </view> 
+
+  </from> 
+
+  <view class='unit'>
+    账户信息
+  </view> 
+  <from class='from-con'>
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">电子邮件</label>
+      <input class='r-name' type='email'></input> 
+    </view>
+    <view class='from-line'>
+      <image src='../../image/111.png'/>
+      <label name="">用户名</label>
+      <input class='r-name' type='text'></input> 
+    </view>
+    <view class='from-line'>
+      <image src='../../image/111.png'/> 
+      <label name="">密码</label>
+      <input class='r-name' type='password'></input> 
+    </view>
+  </from>
+
+  <button bindtap='btnclick' class='zhu-btn'>免费注册</button>
+
+</view>
+
+  
+<button class='confirm' type="submit" bindtap='btnclick' >确认预约</button>  

@@ -1,0 +1,28 @@
+
+<form class='form'>
+  <input type='search' placeholder='输入值为关键字，公司名称'></input>
+  <image src='../../image/ting_03.gif' class='img'></image>
+</form>
+<view class='header'>
+  <text>推荐</text>
+    <button bindtap='fnt'>地址</button>
+</view>
+<view class='wap'>
+<view class='con' bindtap='xiang' wx:for="{{rp}}" >
+
+  <image src='../../image/ting_07.gif'></image>
+  <text class='jingdong'>{{item.rp}}</text>
+  <text class='dianshang' wx:for="{{item.details}}">{{item.size}} | {{item.industry}}</text>
+  <view class='shangshi' wx:for="{{item.details}}">
+   <text class='gongsi' wx:for="{{item.welfare}}">{{item}}</text> 
+  </view>
+  <view class='zhiwei'><text>2296</text>个与我相关的职位</view>
+</view>
+</view>
+<view class='footer'>
+<view bindtap='btn'><image src='../../image/ting_16.jpg'></image>
+    <text >首页</text></view>
+    
+    <view bindtap='bon'><image src='../../image/ting_18.jpg'></image>
+    <text>我</text></view>
+</view>

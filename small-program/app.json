@@ -1,0 +1,22 @@
+{
+  "pages": [
+    
+    "pages/entry/entry",
+   "pages/enterprise/enterprise",
+    "pages/login/login",
+    "pages/myJane/myJane",
+    "pages/myMap/myMap",
+    "pages/myWork/myWork",
+    "pages/workDetails/workDetails",
+    "pages/personage/personage",
+    "pages/rpLogin/rpLogin",
+    "pages/rpRegistration/rpRegistration",
+    "pages/rpRelease/rpRelease"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  }
+}

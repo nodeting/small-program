@@ -1,0 +1,118 @@
+.form{
+  width: 100%;
+  height: 40px;
+  /* position: relative; */
+  position: fixed;
+  background-color: #fff;
+  top: 2rpx;
+  left: 0;
+ 
+}
+
+.form input{
+  width:85%;
+  height: 20px;
+  border: 1px #ccc solid;
+  border-radius:14px;
+  padding-left: 5%;
+  margin-left: 5%;
+  font-size: 10px;
+ 
+}
+.img{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -17px;
+  left:285px;
+}
+.header{
+  display: flex;
+  background: #fff;
+  position: fixed;
+  top: 47rpx;
+  left: 0;
+  border-top: 2px solid #f7f7f7;
+  border-bottom: 2px solid #f7f7f7;
+  width: 100%;
+  margin-top: 4%;
+  font-size: 14px;
+}
+.header text{
+  margin-left: 28%;
+  line-height: 40px;
+}
+.header button{
+  background:none; 
+  font-size: 14px;
+}
+button::after{
+   border: none;
+}
+.con{
+  width: 90%;
+  padding: 3% 5%; 
+  border-bottom: 7px #f4f4f4 solid;
+}
+.wap{
+  margin:160rpx 0 120rpx;
+}
+.con image{
+  width: 32px;
+  float: left;
+  margin-right:2%;
+  margin-top: 1%;
+  height: 30px;
+}
+.jingdong{
+  width:70%;
+  font-size: 12px;
+ line-height: 22px;
+  display: block;
+}
+.dianshang{
+  width:80%;
+  display: block;
+  color: #ccc;
+  line-height: 20px;
+  font-size: 10px
+}
+.shangshi{
+  margin-left: 12%;
+}
+.gongsi{
+  font-size: 10px;
+  margin: 0 1%;
+  background-color:#f6f6f6;
+  color: #b8b8b8;
+  padding: 1% 2%;
+}
+.zhiwei{
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 12%;
+  margin-top: 2%;
+}
+.zhiwei text{
+  color: #f0b29d;
+  background: #f5f5fe;
+  padding: 0 1%;
+}
+.footer{
+width: 100%;
+background: #fff;
+ position: fixed;
+ bottom: 1px;
+}
+.footer image{
+  width: 30px;
+  height:30px;
+  display: block;
+  margin-left: 40%;
+}
+.footer view{
+  width: 50%;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+}

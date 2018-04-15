@@ -1,0 +1,241 @@
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  width: 100%;
+  height: 100rpx;
+  padding-top: 20rpx;
+  background: #eeeff1;
+}
+.header .ipt_top{
+  width: 90%;
+  height: 80rpx;
+  padding-left: 40rpx;
+  border-radius: 40rpx;
+  background: #fff;
+}
+.header .ipt_top input{
+  width: 85%;
+  display: inline-block;
+  height: 80rpx;
+  font-size: 36rpx;
+}
+.header .ipt_top image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 3% 2%;
+}
+.hot{
+  width: 90%;
+}
+.hot .hot_title{
+  color: #bcbcbc;
+  margin:50rpx 0;
+  display: block;
+}
+.post{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+.post text{
+  border: 1rpx #eeeff1 solid;
+  padding: 10rpx 25rpx;
+  margin-bottom: 30rpx;
+  font-size: 30rpx;
+}
+.post view{
+   width: 100%; 
+  display: flex;
+  justify-content: space-between;
+}
+.post view:last-child{
+  width: 43%;
+}
+.particulars{
+  width: 90%;
+  font-size: 30rpx;
+}
+.particulars .one{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.particulars .one .xing{
+  width: 150rpx;
+  line-height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.xing image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 20rpx;
+}
+.particulars .one .zw{
+  padding: 15rpx 28rpx;
+  border: 1rpx #eeeff1 solid;
+  background-size: 110rpx 70rpx;
+}
+.two{
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.particulars .zhaopin{
+  width: 120rpx;
+  height: 30px;
+  background-image: url(https://ehcto.com/image/welbj_09.jpg);
+  background-size: 120rpx 70rpx;
+}
+.askfor{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.askfor input[type="text"]{
+  width: 80rpx;
+  height: 30rpx;
+  background: #f3f9fc;
+  border: 1rpx #eeeff1 solid;  
+  text-align: center;
+  margin-right: 10rpx;
+}
+.askfor .people{
+  display: flex
+}
+.askfor .people text{
+  margin-top: 10rpx;
+}
+.select_box{
+  background-image: url("../../image/wel_jian_07.jpg");
+  background-size: 155rpx 60rpx;
+  background: pink;
+  width: 140rpx;
+  height: 60rpx;
+  position: relative; 
+}
+.select{
+  width: 100%;
+   height: 60rpx; 
+  text-align: center;
+}
+.select_text{
+line-height: 60rpx;
+font-size: 25rpx;
+}
+.option_box{
+  position: absolute;
+  top: 60rpx;
+  width: 100%;
+  overflow-y: auto; 
+  border-top: 0;  
+  background:#F3F9FC;
+  transition: height 0.3s;
+  z-index: 1000;
+}
+.option{
+  width: 150rpx;
+  display: block; 
+  font-size: 25rpx;
+  line-height: 45rpx;
+  text-align: center;
+}
+.askfor > text{
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}
+.monthly{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.monthly .select_box{
+  width: 200rpx;
+}
+.monthly .option_box{
+  text-align: center
+}
+.monthly_text{
+  padding: 2rpx 20rpx;
+  line-height: 50rpx;
+  background: #2f9ddf;
+  color: #fff;
+}
+.describe{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.describe textarea{
+  width: 76%;
+  height: 250rpx;
+  background: pink;
+}
+.bright{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.bright_right{
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+   flex-wrap: wrap; 
+}
+.bright_right > view{
+  margin-top: -35rpx;
+  margin-bottom: 20rpx;
+}
+.bright_right > view .red{
+  color: red;
+}
+.bright_right > text{
+  padding: 10rpx 10rpx;
+  border: 1rpx #bcbcbc solid;
+  font-size: 25rpx;
+  margin-bottom: 15rpx;
+}
+.work{
+  display: flex;
+  justify-content:flex-start;
+  margin-bottom: 30rpx;
+}
+.work > text{
+  padding:10rpx 20rpx;
+  background: #2f9ddf;
+  color: #fff; 
+  margin-left: 20rpx;
+}
+.work_did{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.work_did > text{
+  padding: 10rpx 10rpx;
+}
+.work_did .blue{
+  background: #2f9ddf;
+  color: #fff;
+  border-radius: 10rpx;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+.rl{
+  width: 76%;
+}
+.rl .section{
+   background:#CABBC7;
+   margin:20rpx;
+   padding:20rpx
+
+}
+

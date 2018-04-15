@@ -1,0 +1,97 @@
+/* pages/login/login.wxss */
+.container {
+  background-color: #F7F7F7;
+}
+.tu{
+  width: 100%;
+  display: flex;
+  margin: 100rpx 0 0 180rpx; 
+  text-align: center;
+} 
+ .tu_1{
+   width: 30%; 
+}
+.tu_1 image{
+  width: 100rpx;
+ height: 100rpx;  
+  border-radius: 50%;
+}
+.tu_1 text{
+  display: block
+}
+.tu_2{
+  width: 10%;
+  margin: 0 30rpx;
+}
+.tu_2 image{
+  width: 80rpx;
+  height: 50rpx;
+  margin-top: 20rpx;
+}
+.tu_3{
+  width: 30%;
+  text-align: center;
+} 
+.tu_3 image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.tu_3 text{
+   display: inline-block; 
+}
+
+.ipt{
+  width: 90%;
+  margin-top: 30%;
+}
+.ipt_top{
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 100rpx;
+}
+.ipt_top image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 3% 5%;
+}
+.ipt_top input{
+  width: 85%;
+  display: inline-block;
+  height: 100rpx;
+  font-size: 36rpx;
+}
+
+.ipt_bottom{
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 100rpx;
+}
+.ipt_bottom image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 0 3% 5%;
+}
+.btn{
+  width: 56%;
+  display: inline-block;
+  height: 100rpx;
+  font-size: 36rpx;
+}
+.ipt_bottom button{
+  width: 30%;
+  height: 60rpx;
+  font-size: 25rpx;
+  display: inline-block;
+  line-height: 60rpx;
+  background-color: #F98D2B;
+  color: #fff;
+  margin-bottom: 2.5%;
+}
+.confirm{
+  width: 90%;
+  background-color: #FF8B26;
+  color: #fff;
+  margin: 5% 0 0 0;
+  /* height: 100rpx; */
+  line-height: 100rpx;
+}

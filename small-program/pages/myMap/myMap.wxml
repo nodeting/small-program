@@ -1,0 +1,41 @@
+<!--pages/myMap/myMap.wxml-->  
+<view class='con' bindtap='et'>
+我的位置 <image src='../../image/tin.png'></image>
+</view>
+ <view class='name'>
+ {{name}}
+ </view>
+
+<view class="list">
+
+    <view bindtap='jumpTo' data-opt="a">A</view><view bindtap='jumpTo' data-opt="b">B</view>
+    <view bindtap='jumpTo' data-opt="c">C</view><view bindtap='jumpTo' data-opt="d">D</view>
+    <view bindtap='jumpTo' data-opt="f">F</view><view bindtap='jumpTo' data-opt="g">G</view>
+    <view bindtap='jumpTo' data-opt="h">H</view><view bindtap='jumpTo' data-opt="k">K</view>
+    <view bindtap='jumpTo' data-opt="l">L</view>
+    <view bindtap='jumpTo' data-opt="m">M</view><view bindtap='jumpTo' data-opt="n">N</view>
+    <view bindtap='jumpTo' data-opt="p">P</view><view bindtap='jumpTo' data-opt="q">Q</view>
+    <view bindtap='jumpTo' data-opt="r">R</view><view bindtap='jumpTo' data-opt="s">S</view>
+    <view bindtap='jumpTo' data-opt="t">T</view><view bindtap='jumpTo' data-opt="w">W</view>
+</view>
+<scroll-view 
+
+    scroll-into-view="{{toView}}" 
+
+    scroll-y="true" 
+
+    scroll-with-animation="true" 
+
+    class="scr">
+
+<view  wx:for="{{list}}"
+
+    id="{{item}}"
+
+    wx:key="*this"
+
+    data-rol="{{item}}"
+
+    class="test">{{item}}</view>
+
+</scroll-view>
